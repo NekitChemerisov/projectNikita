@@ -11,7 +11,7 @@ class Person(Base):
     lastname = Column('lastname', String(50))
     course = Column('course', String)
 
-engine = create_engine('sqlite:///:memory:', echo=True)
+engine = create_engine('sqlite:///mydatabase.db', echo=True)
 Base.metadata.create_all(engine)
 Session = sessionmaker(engine)
 session = Session()
