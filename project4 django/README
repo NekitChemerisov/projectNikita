@@ -1,0 +1,7 @@
+ЗАПУСК СЕРВЕРА 
+cd project4\django\animehost
+python manage.py runserver
+
+ДОСТУПЫ ОТ АДМИНКИ
+логин admin
+пароль admin
